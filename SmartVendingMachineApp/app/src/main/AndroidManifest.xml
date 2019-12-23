@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jonphipps.smartvendingmachineapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity_Login"
+            android:label="Smart Vending Machine Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity_MainMenu"
+            android:label="Main Menu" />
+        <activity
+            android:name=".Activity_SelectBase"
+            android:label="Select Base" />
+        <activity
+            android:name=".Activity_SelectToppings"
+            android:label="Select Toppings" />
+        <activity
+            android:name=".Activity_InsertCredit"
+            android:label="Insert Credit" />
+        <activity
+            android:name=".Activity_DispenseItem"
+            android:label="Dispensing Item" />
+        <activity
+            android:name=".Activity_ControlPanelAdminMenu"
+            android:label="Control Panel" />
+        <activity
+            android:name=".Activity_ViewUsers"
+            android:label="View All Users" />
+        <activity
+            android:name=".Activity_ViewBases"
+            android:label="View All Bases" />
+        <activity
+            android:name=".Activity_ViewToppings"
+            android:label="View All Toppings" />
+        <activity
+            android:name=".Activity_ControlPanelUserMenu"
+            android:label="Control Panel" />
+        <activity
+            android:name=".Activity_EditProfile"
+            android:label="Edit Profile" />
+        <activity
+            android:name=".Activity_EditUser"
+            android:label="Edit User" />
+        <activity
+            android:name=".Activity_EditBase"
+            android:label="Edit Base" />
+        <activity
+            android:name=".Activity_EditTopping"
+            android:label="Edit Topping" />
+        <activity
+            android:name=".Activity_AddBase"
+            android:label="Add Base" />
+        <activity
+            android:name=".Activity_AddTopping"
+            android:label="Add Topping" />
+        <activity
+            android:name=".Activity_SelectRecommendations"
+            android:label="Recommended Items" />
+        <activity
+            android:name=".Activity_ProductSummary"
+            android:label="Product Summary" />
+        <activity
+            android:name=".Activity_OrderHistory"
+            android:label="Order History" />
+        <activity
+            android:name=".Activity_ViewSalesData"
+            android:label="View Sales Data"></activity>
+    </application>
+
+</manifest>

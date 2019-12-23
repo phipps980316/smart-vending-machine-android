@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity_DispenseItem">
+
+    <TextView
+        android:id="@+id/lblItemDispensed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Dispensed"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/lblItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/lblItemCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/lblThankYou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank You"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:onClick="onClickBtnFinish"/>
+
+</LinearLayout>

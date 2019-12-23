@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity_EditBase">
+
+    <TextView
+        android:id="@+id/lblBaseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"/>
+
+    <EditText
+        android:id="@+id/txtBaseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Base Name"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/lblBaseCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cost"/>
+
+    <EditText
+        android:id="@+id/txtBaseCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Base Cost"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/lblBaseStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock"/>
+
+    <EditText
+        android:id="@+id/txtBaseStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Base Stock"
+        android:inputType="number"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Update"
+            android:onClick="onClickBtnUpdate"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Delete"
+            android:onClick="onClickBtnDelete"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="onClickBtnBack"/>
+</LinearLayout>

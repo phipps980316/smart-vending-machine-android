@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_ViewSalesData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblNumberOfBaseItemsSold"
+            android:text="Number Of Each Base Sold (ID, Name, Quantity):"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TableLayout
+            android:id="@+id/tbNumberOfBaseItemsSold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1,2"
+            android:padding="5dp">
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/lblNumberOfToppingItemsSold"
+            android:text="Number Of Each Topping Sold (ID, Name, Quantity):"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TableLayout
+            android:id="@+id/tbNumberOfToppingItemsSold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1,2"
+            android:padding="5dp">
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/lblOutOfStockBaseItems"
+            android:text="Out Of Stock Bases (ID, Name):"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TableLayout
+            android:id="@+id/tbOutOfStockBaseItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1"
+            android:padding="5dp">
+        </TableLayout>
+
+
+        <TextView
+            android:id="@+id/lblOutOfStockToppingItems"
+            android:text="Out Of Stock Toppings (ID, Name:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TableLayout
+            android:id="@+id/tbOutOfStockToppingItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1"
+            android:padding="5dp">
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/lblTotalSalesAmount"
+            android:text="Total Sales Amount : £"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/lblTotalOrders"
+            android:text="Total Number Of Orders : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/lblTotalUsers"
+            android:text="Total Number Of Users : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:onClick="onClickBtnBack"/>
+    </LinearLayout>
+</ScrollView>
